@@ -1,0 +1,26 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	height: 100vh;
+}
+
+.form > div {
+	display: flex;
+}
+
+.link {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex: '1';
+	margin: '0';
+	cursor: pointer;
+}
+
+.link h2:hover {
+	background: cadetblue;
+}
